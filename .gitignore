@@ -5,3 +5,6 @@ dist/
 .DS_Store
 .env
 .vercel
+
+chatgpt-work-pptx/
+*.tar.gz
