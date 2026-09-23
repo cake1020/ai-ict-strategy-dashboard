@@ -44,3 +44,20 @@
 - [NVIDIA Research](https://research.nvidia.com/labs/avg/)
 - [Siemens Physical AI Factory](https://press.siemens.com/global/en/pressrelease/siemens-and-humanoid-bring-physical-ai-factory-floor-deploying-humanoids-industrial)
 - [ROS](https://www.ros.org/)
+
+## 10. 출처 분석: 시뮬레이션에서 현장으로
+
+Siemens의 발표는 Physical AI를 단순 휴머노이드 시연이 아니라 공장 운영과 연결된 적응형 제조의 문제로 제시한다. NVIDIA와 Siemens의 협력은 로봇 모델, 시뮬레이션, 공장 데이터, 산업 소프트웨어를 결합하는 생태계 경쟁을 보여준다. 따라서 국가사업도 로봇 하드웨어 구매량을 성과로 삼기보다 실제 공정의 cycle time, 불량률, 작업자 안전, 재학습시간을 측정해야 한다.
+
+## 11. 상용화의 현실적 순서
+
+범용 휴머노이드가 모든 작업을 대체한다는 가정은 검증되지 않았다. 현재는 구조화된 공정, 반복·위험 작업, 물류 이송, 검사·피킹처럼 ROI를 계산할 수 있는 세부작업이 먼저다. 완전 자율보다 원격지원·공동작업·안전정지 기능을 포함한 단계적 자동화가 도입장벽을 낮춘다.
+
+## 12. 실증 설계
+
+- 1단계: 디지털 트윈에서 데이터·충돌·예외상황 검증
+- 2단계: 제한된 셀에서 인간감독 하의 작업 수행
+- 3단계: 여러 라인으로 확장하며 모델 업데이트와 안전감사
+- 4단계: 장비·소프트웨어·유지보수의 총소유비용 비교
+
+**정책 결론:** 제조데이터를 가진 수요기업이 실증의 공동주체가 아니면 로봇기업의 데모가 산업생산성으로 이어지기 어렵다.

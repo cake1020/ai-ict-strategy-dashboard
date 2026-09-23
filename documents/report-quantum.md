@@ -45,3 +45,20 @@
 - [NIST Quantum Information Science](https://www.nist.gov/quantum-information-science)
 - [IBM Quantum](https://www.ibm.com/quantum)
 - [Google Quantum AI](https://quantumai.google/)
+
+## 10. 출처 분석: 양자컴퓨터보다 먼저 움직이는 PQC
+
+NIST NCCoE의 PQC FAQ는 이행을 암호 알고리즘 교체 하나로 보지 않고 두 개의 작업흐름으로 나눈다. 첫째는 전체 암호자산을 파악하고 위험을 관리하는 **cryptographic inventory**, 둘째는 제품과 서비스에 PQC를 넣고 상호운용성과 성능을 검증하는 **interoperability and benchmarking**이다. 이 구조는 국내 정책이 연구개발과 전환실무를 분리해서는 안 된다는 근거가 된다.
+
+PQC 전환은 장기 보관정보의 'harvest now, decrypt later' 위험 때문에 양자컴퓨터가 완성될 때까지 기다릴 수 없다. 다만 모든 시스템을 동시에 바꾸는 방식은 운영장애를 키우므로 공개키 사용처, 데이터 수명, 교체 가능성, 공급망 의존도를 기준으로 우선순위를 정해야 한다.
+
+## 11. 기술·산업 포트폴리오
+
+- **PQC:** 단기적으로 가장 명확한 공공수요, 암호모듈·PKI·키관리 시장 형성
+- **양자센서:** 국방·정밀측정·의료 등 특정 문제에서 선도 실증 가능
+- **양자컴퓨팅:** 오류정정·제어·알고리즘·클라우드 접근을 장기 R&D로 지속
+- **양자통신:** 보안성 주장보다 거리·키율·운영비용의 실증이 먼저
+
+## 12. 12개월 실행 로드맵
+
+암호자산 인벤토리 → 위험등급화 → 하이브리드 전환 테스트 → 상호운용성 검증 → 조달·감사 기준 반영의 순서로 추진한다.
