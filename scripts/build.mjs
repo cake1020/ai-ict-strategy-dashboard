@@ -8,4 +8,5 @@ await mkdir(dist, { recursive: true });
 for (const file of ['index.html', 'styles.css', 'app.js']) {
   await cp(resolve(root, file), resolve(dist, file));
 }
+await cp(resolve(root, 'documents'), resolve(dist, 'documents'), { recursive: true });
 console.log(`Built static app to ${dist}`);
